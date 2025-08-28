@@ -6,6 +6,8 @@ To Simulate the architecture of a Vehicle-to-Grid system using MATLAB
 •	MATLAB
 
 ## MATLAB CODING
+```
+
 clc;
 clear;
 close all;
@@ -81,7 +83,7 @@ plot(time, grid_power, 'm', 'LineWidth', 1.5);
 xlabel('Time (minutes)');
 ylabel('Net Grid Power (kW)');
 title('Grid Power After V2G Compensation'); grid on;
-
+```
 ## Output
 ![WhatsApp Image 2025-08-28 at 10 58 03_3605b78e](https://github.com/user-attachments/assets/8314d836-c7a4-4525-a5de-5be064fc73b7)
 
